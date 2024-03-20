@@ -36,7 +36,7 @@ function atualizarAgenda() {
 }
 
 $('#selected').ready(function() {
-    $('ol').click(function() {
-        $('li').css('text-decoration', 'line-through');
+    $('ol').on('click','li',function() {
+        $(this).toggleClass('completed');
     })
 })

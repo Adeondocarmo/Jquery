@@ -72,3 +72,7 @@ table td {
 .selected {
     cursor: pointer;
 }
+
+.completed {
+    text-decoration: line-through;
+}
